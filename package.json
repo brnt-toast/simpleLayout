@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "clean" : "rm -rf .parcel-cache/ dist/ docs/*"
+    "clean" : "rm -rf .parcel-cache/ dist/ docs/*",
     "build" : "npm run clean && parcel build ./src/index.pug --public-url ./ --no-source-maps --dist-dir docs/",
     "dev": "parcel index.pug"
   },
